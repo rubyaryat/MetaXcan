@@ -1,4 +1,6 @@
 #!/usr/bin/env python
+# This file was suffixed _test.py, causing it to run automatically with pytest, but is broken
+# due to hard-coded dependencies that exist only on author's machine.
 import os
 import gzip
 import sqlite3
